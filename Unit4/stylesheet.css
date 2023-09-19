@@ -1,0 +1,37 @@
+body {
+  background-color:rgb(22,0,33);
+  width: 80%
+}
+
+p {
+  font-family: Verdana;
+  background-color: rgb(131,131,94);
+  color: rgb(132,79,159);
+}
+
+h1 {
+  font-family: Geneva;
+  background-color: rgb(235,237,111);
+  color: rgb(1,0,1);
+}
+
+h2 {
+  font-family: Georgia;
+  background-color: rgb(49,49,0);
+  color: rgb(132,79,159);
+}
+
+h3 {
+  font-family: "Times New Roman";
+  background-color: rgb(84,85,0);
+  color: white;
+}
+
+main {
+  background-color: rgb(80,64,88)
+}
+
+footer {
+  font-style: italic;
+  background-color: navajowhite;
+}
