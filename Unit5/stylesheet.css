@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(138,92,42);
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  -webkit-text-stroke: 1px black;
+  color: rgb(29,71,87);
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(255, 204, 173);
+  box-shadow: 10px 10px 5px black;
+}
+
+div {
+  width: 80%;
+  margin: auto;
+}
+
+.itembox {
+  border-style: inset;
+  border-color: rgb(138,78,42);
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px blalck;
+  background-color: rgb(157,207,226);
+  color: rgb(29,71,87);
+  padding: 15px;
+}
+
+.favorite {
+  border-style: dashed; 
+  border-color: rgb(29,71,87);
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px blalck;
+  background-color: rgb(155, 228, 210);
+  color: rgb(27,90,74);
+  padding: 15px;
+}
+
+ol li {
+  list-style-type: upper-roman;
+  margin: auto;
+  padding: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(57,115,137);
+  border-radius: 15px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(29,71,87);
+}
