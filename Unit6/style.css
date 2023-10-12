@@ -1,0 +1,53 @@
+main {
+  background-color: rgb(76,0,23);
+  color: rgb(228,152,175);
+}
+
+.spooky {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url("backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-image: url("ghost_32.png");
+}
+
+.specialborder {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(borderimage.png) 30 stretch;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 60px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: rgb(166,111,166);
+  text-shadow: 
+    -1px -1px 0 rgb(55,0,55),
+    -2px -2px 0 rgb(55,0,55),
+    -3px -3px 0 rgb(55,0,55),
+    -4px -4px 0 rgb(55,0,55),
+    -5px -5px 0 rgb(55,0,55),
+    -6px -6px 0 rgb(55,0,55),
+    -7px -7px 0 rgb(55,0,55),
+    -8px -8px 0 rgb(55,0,55),
+    -30px 20px 40px dimgrey
+}
